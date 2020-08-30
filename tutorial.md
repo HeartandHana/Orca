@@ -2,7 +2,7 @@
 # Content
 [Config](##config)
 
-[Create git](##create-git)
+[Create GIT](##create-git)
 
 ## config
 ```
@@ -10,7 +10,7 @@ git config --global user.name SomchaiH
 git config --global user.email somchaih@isd.th.ibm.com
 git config --global --list
 ```
-## create git
+## create GIT
 ```
 git init myproject
 ``` 
@@ -64,13 +64,13 @@ git reset --hard <commit id>
 git reset --soft <commit id>
 git reset --mixed develop
 ```
-## git marge
+## GIT marge
 ```
 git marge --no--ff feature
 git marge feature
 git diff feature
 ```
-## git remote
+## GIT remote
 ```
 git remote add origin <url>
 gti remote -v
