@@ -1,3 +1,8 @@
+# Tutorial GIT by Somchai H.
+# Content
+[Config](##config)
+[Create git](##create-git)
+
 ## config
 ```
 git config --global user.name SomchaiH
@@ -37,7 +42,7 @@ git checkout COMMIT6DIGIT
 git checkout HEAD~2
 git checkout master
 ```
-## rEMOVE
+## remove
 ```
 git rm --cache "filename"
 ```
