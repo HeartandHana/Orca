@@ -1,20 +1,25 @@
 ## config
+```
 git config --global user.name SomchaiH
 git config --global user.email somchaih@isd.th.ibm.com
 git config --global --list
-----create git
+```
+## create git
+```
 git init myproject
- 
+``` 
 ## exception
+```
 create file name .gitignore
-
----add file
+```
+## add file
+```
 git add -A
 
 git  commit -a -m "Message"
-
-----check status
-
+```
+## check status
+```
 git status
 git log
 git log --oneline
@@ -25,45 +30,54 @@ git log --grep="Message"
 git log --after="2017-11-11"
 git log --before="2017-11-11"
 git log --author=somchai
-
----checkout
-
+```
+## checkout
+```
 git checkout COMMIT6DIGIT
 git checkout HEAD~2
 git checkout master
-
---REMOVE
+```
+## rEMOVE
+```
 git rm --cache "filename"
-
---delete untrack file
+```
+## delete untrack file
+```
 git clean -n
 git clean -df
-
----branch
+```
+## branch
+```
 git chekout <branch name, commit id>
 git checkout -b test
 git checkout <branch name> <file name>
-
----GIT reset
+```
+## GIT reset
+```
 git reset --hard <commit id>
 git reset --soft <commit id>
 git reset --mixed develop
-
----git marge
+```
+## git marge
+```
 git marge --no--ff feature
 git marge feature
 git diff feature
-
----git remote
+```
+## git remote
+```
 git remote add origin <url>
 gti remote -v
-
----push
+```
+## push
+```
 git push origin master
-
----pull, fetch, merge
+```
+## pull, fetch, merge
+```
 git fetch -all
 git marge origin/master
 git pull origin master
 
 git clone <url>
+```
