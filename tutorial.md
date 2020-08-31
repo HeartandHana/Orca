@@ -9,27 +9,27 @@
 [Add file](##add-file)
 
 
-## config
+## Config
 ```
 git config --global user.name SomchaiH
 git config --global user.email somchaih@isd.th.ibm.com
 git config --global --list
 ```
-## create GIT
+## Create GIT
 ```
 git init myproject
 ``` 
-## exception
+## Exception
 ```
 create file name .gitignore
 ```
-## add file
+## Add file
 ```
 git add -A
 
 git  commit -a -m "Message"
 ```
-## check status
+## Check status
 ```
 git status
 git log
@@ -42,22 +42,22 @@ git log --after="2017-11-11"
 git log --before="2017-11-11"
 git log --author=somchai
 ```
-## checkout
+## Checkout
 ```
 git checkout COMMIT6DIGIT
 git checkout HEAD~2
 git checkout master
 ```
-## remove
+## Remove
 ```
 git rm --cache "filename"
 ```
-## delete untrack file
+## Delete untrack file
 ```
 git clean -n
 git clean -df
 ```
-## branch
+## Branch
 ```
 git chekout <branch name, commit id>
 git checkout -b test
@@ -80,11 +80,11 @@ git diff feature
 git remote add origin <url>
 gti remote -v
 ```
-## push
+## Push
 ```
 git push origin master
 ```
-## pull, fetch, merge
+## Pull, fetch, merge
 ```
 git fetch -all
 git marge origin/master
