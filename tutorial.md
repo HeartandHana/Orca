@@ -16,7 +16,7 @@
 
 [Delete untrack file](##Delete-untrack-file)
 
-[Branch](## Branch)
+[Branch](##Branch)
 
 [GIT reset](##GIT-Reset)
 
