@@ -4,6 +4,11 @@
 
 [Create GIT](##create-git)
 
+[Exception](##exception)
+
+[Add file](##add-file)
+
+
 ## config
 ```
 git config --global user.name SomchaiH
