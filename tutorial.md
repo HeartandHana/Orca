@@ -8,6 +8,26 @@
 
 [Add file](##add-file)
 
+[Check status](##check-status)
+
+[Check out](##checkout)
+
+[Remove](##remove)
+
+[Delete untrack file](##Delete-untrack-file)
+
+[Branch](## Branch)
+
+[GIT reset](##GIT-Reset)
+
+[GIT marge](##GIT-marge)
+
+[GIT remote](##GIT-remote)
+
+[Push](##push)
+
+[Pull, fetch, merge](Pull-fetch-merge)
+
 
 ## Config
 ```
@@ -84,7 +104,7 @@ gti remote -v
 ```
 git push origin master
 ```
-## Pull, fetch, merge
+## Pull fetch merge
 ```
 git fetch -all
 git marge origin/master
